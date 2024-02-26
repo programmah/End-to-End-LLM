@@ -51,7 +51,7 @@ flags:
 When you are inside the container, launch jupyter lab: 
 `jupyter-lab --no-browser --allow-root --ip=0.0.0.0 --port=8888 --NotebookApp.token="" --notebook-dir=/workspace`. 
 
-Open the browser at `http://localhost:8888` and click on the `Start_here.ipynb` notebook.
+Open the browser at `http://localhost:8888` and click on the `Megatron-GPT.ipynb` notebook to start Lab 1, `TensorRT-LLM.ipynb` notebook to start Lab 2, and `NeMo-Guardrails.ipynb` notebook to start Lab 3.
 As soon as you are done with the lab, shut down jupyter lab by selecting `File > Shut Down` and the container by typing `exit` or pressing `ctrl d` in the terminal window.
 
 Congratulations, you've successfully built and deployed an end-to-end LLM pipeline!
@@ -79,7 +79,7 @@ Congratulations, you've successfully built and deployed an end-to-end LLM pipeli
 
 The `-B` flag mounts local directories in the container filesystem and ensures changes are stored locally in the project folder. Open jupyter lab in the browser: http://localhost:8888
 
-You may start working on the lab by clicking the `Start_Here.ipynb` notebook.
+You may start working on the labs by clicking the `Megatron-GPT.ipynb` notebook to start Lab 1, `TensorRT-LLM.ipynb` notebook to start Lab 2, and `NeMo-Guardrails.ipynb` notebook to start Lab 3.
 
 When you finish these notebooks, shut down jupyter lab by selecting `File > Shut Down` in the top left corner, then shut down the Singularity container by typing `exit` or pressing `ctrl + d` in the terminal window.
 
